@@ -1,0 +1,19 @@
+@import 'base/variables';
+@import 'base/global';
+
+@import 'components/formLogin';
+@import 'components/anuncio';
+@import 'components/button';
+@import 'components/post';
+@import 'components/card';
+@import 'components/calendar';
+
+@import 'layout/sidebar';
+@import 'layout/mainblog';
+@import 'layout/header';
+@import 'layout/footer';
+
+/* Bootstrap */
+@import 'vendor/bootstrap.scss';
+@import 'vendor/bootstrap-grid.scss';
+@import 'vendor/bootstrap-reboot.scss';

@@ -1,0 +1,44 @@
+.header {
+  height: 75vh;
+  background-image: linear-gradient(
+      to right,
+      rgba($color-gold-light, 0.9),
+      rgba($color-sidebar, 0.9)
+    ),
+    url(../../images/header.jpg);
+  filter: grayscale(0%);
+  background-size: cover;
+  position: relative;
+
+  @media (min-width: 800px) {
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    z-index: 10;
+  }
+
+  &__title {
+    //.header__title
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    font-weight: 200;
+
+    @media (min-width: 800px) {
+      font-size: 5.5rem;
+      letter-spacing: 2.5rem;
+    }
+  }
+
+  &__cta {
+    text-align: center;
+  }
+}
+
+.alert {
+  z-index: 999 !important;
+  margin-bottom: 0 !important;
+}

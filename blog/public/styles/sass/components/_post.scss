@@ -1,0 +1,41 @@
+.post {
+  background-color: rgba($color-gold-light, 0.3);
+  transform: skewY(-4deg);
+
+  &__content {
+    width: 101%;
+    background-color: rgba(#fff, 0.9);
+    padding: 2rem 1rem;
+    margin-bottom: 3rem;
+    transform: skewY(4deg);
+
+    &--nomg {
+      margin-bottom: 0;
+    }
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 200;
+    letter-spacing: 1.3rem;
+
+    & a,
+    &:visited {
+      color: $color-sidebar !important;
+      text-decoration: none;
+    }
+  }
+
+  &__text {
+    margin: 2rem 2.5rem;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    color: rgb(82, 82, 82);
+
+    &--single {
+      font-size: 1.6rem;
+      line-height: 150%;
+    }
+  }
+}

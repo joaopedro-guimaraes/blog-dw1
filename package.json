@@ -1,0 +1,25 @@
+{
+  "name": "blogdw1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass blog/public/styles/sass/main.scss blog/public/styles/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThonAtaide/blogdw1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThonAtaide/blogdw1/issues"
+  },
+  "homepage": "https://github.com/ThonAtaide/blogdw1#readme",
+  "dependencies": {
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.10.0"
+  }
+}
